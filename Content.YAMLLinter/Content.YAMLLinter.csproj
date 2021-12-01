@@ -5,6 +5,7 @@
         <TargetFramework>$(TargetFramework)</TargetFramework>
         <OutputPath>..\bin\Content.YAMLLinter\</OutputPath>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <Configurations>Debug;Release;Debug2</Configurations>
     </PropertyGroup>
 
   <ItemGroup>
