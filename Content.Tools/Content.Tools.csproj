@@ -3,6 +3,7 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>$(TargetFramework)</TargetFramework>
+        <Configurations>Debug;Release;Debug2</Configurations>
     </PropertyGroup>
 
     <ItemGroup>

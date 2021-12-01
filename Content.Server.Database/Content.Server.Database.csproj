@@ -9,6 +9,7 @@
     <OutputPath>..\bin\Content.Server.Database\</OutputPath>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <Nullable>enable</Nullable>
+    <Configurations>Debug;Release;Debug2</Configurations>
   </PropertyGroup>
   <Import Project="..\RobustToolbox\MSBuild\Robust.DefineConstants.targets" />
 
