@@ -92,7 +92,7 @@
   mapNameTemplate: '{0} Reach {1}'
   nameGenerator:
     !type:NanotrasenNameGenerator
-    prefixCreator: 'SS'
+    prefixCreator: '14'
   mapPath: Maps/ssreach.yml
   minPlayers: 0
   maxPlayers: 14
