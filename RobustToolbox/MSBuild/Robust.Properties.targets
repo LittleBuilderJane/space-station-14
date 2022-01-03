@@ -1,0 +1,34 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <Import Project="Robust.Custom.targets" Condition="Exists('Robust.Custom.targets')"/>
+  <!-- MSBuild hurts and I can't find a foolproof way to detect platform. -->
+  <PropertyGroup>
+    <OS Condition="'$(OS)' == ''">Windows_NT</OS>
+  </PropertyGroup>
+  <Choose>
+    <When Condition="'$(OS)' != 'Unix'">
+      <PropertyGroup>
+        <ActualOS>Windows</ActualOS>
+      </PropertyGroup>
+    </When>
+    <!-- Folders that *probably* only exist on MacOS and not Linux. -->
+    <When Condition="Exists('/Volumes') And Exists('/System') And Exists('/Library')" >
+      <PropertyGroup>
+        <ActualOS>MacOS</ActualOS>
+      </PropertyGroup>
+    </When>
+    <Otherwise>
+      <PropertyGroup>
+        <ActualOS>Linux</ActualOS>
+      </PropertyGroup>
+    </Otherwise>
+  </Choose>
+  <PropertyGroup>
+    <TargetOS Condition="'$(TargetOS)' == ''">$(ActualOS)</TargetOS>
+    <Python>python3</Python>
+    <Python Condition="'$(ActualOS)' == 'Windows'">py -3</Python>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableClientScripting>True</EnableClientScripting>
+    <!-- Client scripting is disabled on full release builds for security and size reasons. -->
+    <EnableClientScripting Condition="'$(FullRelease)' == 'True'">False</EnableClientScripting>
+  </PropertyGroup>
+</Project>
