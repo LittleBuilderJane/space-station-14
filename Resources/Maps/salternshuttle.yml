@@ -1,0 +1,3681 @@
+meta:
+  format: 2
+  name: DemoStation
+  author: Space-Wizards
+  postmapinit: false
+tilemap:
+  0: space
+  1: floor_asteroid_coarse_sand0
+  2: floor_asteroid_coarse_sand1
+  3: floor_asteroid_coarse_sand2
+  4: floor_asteroid_coarse_sand_dug
+  5: floor_asteroid_sand
+  6: floor_asteroid_tile
+  7: floor_bar
+  8: floor_blue
+  9: floor_blue_circuit
+  10: floor_clown
+  11: floor_dark
+  12: floor_elevator_shaft
+  13: floor_freezer
+  14: floor_glass
+  15: floor_gold
+  16: floor_grass
+  17: floor_green_circuit
+  18: floor_hydro
+  19: floor_kitchen
+  20: floor_laundry
+  21: floor_lino
+  22: floor_mime
+  23: floor_mono
+  24: floor_reinforced
+  25: floor_rglass
+  26: floor_rock_vault
+  27: floor_showroom
+  28: floor_silver
+  29: floor_snow
+  30: floor_steel
+  31: floor_steel_dirty
+  32: floor_techmaint
+  33: floor_white
+  34: floor_wood
+  35: lattice
+  36: plating
+  37: underplating
+grids:
+- settings:
+    chunksize: 16
+    tilesize: 1
+  chunks:
+  - ind: "-1,-1"
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAACMAAAAjAAAAIwAAAAAAAAAkAAAAFwAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAjAAAAIwAAACMAAAAkAAAAJAAAABcAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAFwAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAABcAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAIQAAACEAAAAXAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACEAAAAhAAAAFwAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAhAAAAIQAAABcAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAIQAAACEAAAAXAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACEAAAAhAAAAFwAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAABcAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAGQAAAA==
+  - ind: "0,-1"
+    tiles: GAAAABgAAAAYAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAYAAAAGAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXAAAAFwAAABcAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAsAAAAZAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsAAAALAAAAGQAAABcAAAAkAAAAAAAAACMAAAAjAAAAIwAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAAAACwAAABkAAAAXAAAAJAAAACQAAAAjAAAAIwAAACMAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAsAAAAZAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsAAAALAAAAGQAAABcAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAAAACwAAABkAAAAXAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAsAAAAZAAAAFwAAABkAAAAZAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsAAAALAAAAGQAAABcAAAALAAAAGQAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAAAACwAAABkAAAAXAAAACwAAABkAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAsAAAAZAAAAFwAAAAsAAAAZAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsAAAALAAAAGQAAABcAAAAZAAAAGQAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAAAACwAAABkAAAAXAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAsAAAAZAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  - ind: "-1,0"
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFwAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  - ind: "0,0"
+    tiles: FwAAABcAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsAAAALAAAAGQAAABcAAAAZAAAAGQAAABkAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAAAACwAAAAsAAAAXAAAACwAAAAsAAAAZAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAABkAAAAZAAAAFwAAABkAAAALAAAAGQAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcAAAAkAAAAJAAAACQAAAAZAAAACwAAABkAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGQAAABkAAAAkAAAAGQAAAAsAAAAZAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAABkAAAAZAAAAJAAAABkAAAALAAAAGQAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAGQAAACQAAAAZAAAACwAAABkAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAGQAAABkAAAAkAAAAGQAAAAsAAAAZAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAABkAAAALAAAAGQAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAZAAAACwAAABkAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAGQAAAAsAAAAZAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAABkAAAALAAAAGQAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAZAAAACwAAABkAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAGQAAAAsAAAAZAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAABkAAAALAAAAGQAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  - ind: "-1,-2"
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAGAAAAA==
+  - ind: "0,-2"
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAABgAAAAYAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  - ind: "0,1"
+    tiles: AAAAAAAAAAAAAAAAJAAAABcAAAAXAAAAFwAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+entities:
+- uid: 0
+  type: FoodBoxDonut
+  components:
+  - pos: 5.476259,-4.435972
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+  - containers:
+      storagebase: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 1
+  type: WallReinforced
+  components:
+  - pos: 2.5,0.5
+    parent: 35
+    type: Transform
+- uid: 2
+  type: WallReinforced
+  components:
+  - pos: 5.5,-0.5
+    parent: 35
+    type: Transform
+- uid: 3
+  type: DrinkColaCan
+  components:
+  - pos: 5.226259,-4.123472
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 4
+  type: WallReinforced
+  components:
+  - pos: 8.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 5
+  type: WallReinforced
+  components:
+  - pos: 6.5,1.5
+    parent: 35
+    type: Transform
+- uid: 6
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-14.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 7
+  type: WallReinforced
+  components:
+  - pos: 4.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 8
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-6.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 9
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-0.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 10
+  type: WallReinforced
+  components:
+  - pos: -4.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 11
+  type: CableApcExtension
+  components:
+  - pos: 5.5,11.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 12
+  type: WallReinforced
+  components:
+  - pos: 3.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 13
+  type: ChairPilotSeat
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 4.5,-6.5
+    parent: 35
+    type: Transform
+- uid: 14
+  type: DebugGenerator
+  components:
+  - pos: 7.5,-7.5
+    parent: 35
+    type: Transform
+  - supplyRampPosition: 3000
+    type: PowerSupplier
+- uid: 15
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-15.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 16
+  type: WallReinforced
+  components:
+  - pos: -6.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 17
+  type: WallReinforced
+  components:
+  - pos: 0.5,-17.5
+    parent: 35
+    type: Transform
+- uid: 18
+  type: WallReinforced
+  components:
+  - pos: -0.5,-18.5
+    parent: 35
+    type: Transform
+- uid: 19
+  type: SalternSubstation
+  components:
+  - pos: -5.5,-8.5
+    parent: 35
+    type: Transform
+  - startingCharge: 1450176
+    type: Battery
+  - loadingNetworkDemand: 7724.972
+    currentReceiving: 3000
+    currentSupply: 7724.972
+    supplyRampPosition: 4724.972
+    type: PowerNetworkBattery
+  - containers:
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 20
+  type: SalternSubstation
+  components:
+  - pos: 7.5,-8.5
+    parent: 35
+    type: Transform
+  - startingCharge: 2828124
+    type: Battery
+  - loadingNetworkDemand: 4564.9985
+    currentReceiving: 3000
+    currentSupply: 4564.9985
+    supplyRampPosition: 1564.9985
+    type: PowerNetworkBattery
+  - containers:
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 21
+  type: WallReinforced
+  components:
+  - pos: -4.5,-6.5
+    parent: 35
+    type: Transform
+- uid: 22
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-14.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 23
+  type: WallReinforced
+  components:
+  - pos: 6.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 24
+  type: ReinforcedWindow
+  components:
+  - pos: 3.5,-2.5
+    parent: 35
+    type: Transform
+- uid: 25
+  type: WallReinforced
+  components:
+  - pos: 5.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 26
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,7.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 27
+  type: Grille
+  components:
+  - pos: 3.5,-2.5
+    parent: 35
+    type: Transform
+- uid: 28
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-13.5
+    parent: 35
+    type: Transform
+- uid: 29
+  type: CableApcExtension
+  components:
+  - pos: -7.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 30
+  type: WallReinforced
+  components:
+  - pos: -2.5,-10.5
+    parent: 35
+    type: Transform
+- uid: 31
+  type: WallReinforced
+  components:
+  - pos: 6.5,0.5
+    parent: 35
+    type: Transform
+- uid: 32
+  type: WallReinforced
+  components:
+  - pos: 3.5,-0.5
+    parent: 35
+    type: Transform
+- uid: 33
+  type: WallReinforced
+  components:
+  - pos: -6.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 34
+  type: DrinkColaCan
+  components:
+  - rot: 0.00043286115396767855 rad
+    pos: 5.7368164,-4.404437
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 35
+  components:
+  - pos: 0.38396746,-0.5107423
+    parent: null
+    type: Transform
+  - index: 0
+    type: MapGrid
+  - linearDamping: 0.1
+    fixedRotation: False
+    bodyType: Dynamic
+    type: Physics
+  - fixtures:
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,-18.99
+        - -0.01,-18.01
+        - -0.99,-18.01
+        - -0.99,-18.99
+      id: grid_chunk--0.99--18.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 3.8415983
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,-10.99
+        - -0.01,-8.01
+        - -8.99,-8.01
+        - -8.99,-10.99
+      id: grid_chunk--8.99--10.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 107.04158
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,1.01
+        - -0.01,7.99
+        - -1.99,7.99
+        - -1.99,1.01
+      id: grid_chunk--1.99-1.01
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 55.2816
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,8.01
+        - -0.01,8.99
+        - -0.99,8.99
+        - -0.99,8.01
+      id: grid_chunk--0.99-8.01
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 3.8415983
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,-17.99
+        - -0.01,-16.01
+        - -1.99,-16.01
+        - -1.99,-17.99
+      id: grid_chunk--1.99--17.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 15.681597
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 2.99,-18.99
+        - 2.99,-18.01
+        - 0.01,-18.01
+        - 0.01,-18.99
+      id: grid_chunk-0.01--18.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 11.681595
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 10.99,-11.99
+        - 10.99,-11.01
+        - 10.01,-11.01
+        - 10.01,-11.99
+      id: grid_chunk-10.01--11.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 3.8415964
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 7.99,10.01
+        - 7.99,15.99
+        - 3.01,15.99
+        - 3.01,10.01
+      id: grid_chunk-3.01-10.01
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 119.12158
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,0.01
+        - -0.01,0.99
+        - -2.99,0.99
+        - -2.99,0.01
+      id: grid_chunk--2.99-0.01
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 11.681601
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 3.99,-17.99
+        - 3.99,-16.01
+        - 0.01,-16.01
+        - 0.01,-17.99
+      id: grid_chunk-0.01--17.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 31.521593
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 8.99,-11.99
+        - 8.99,-11.01
+        - 6.01,-11.01
+        - 6.01,-11.99
+      id: grid_chunk-6.01--11.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 11.681593
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 4.99,-13.99
+        - 4.99,-11.01
+        - 0.01,-11.01
+        - 0.01,-13.99
+      id: grid_chunk-0.01--13.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 59.361588
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,-13.99
+        - -0.01,-11.01
+        - -2.99,-11.01
+        - -2.99,-13.99
+      id: grid_chunk--2.99--13.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 35.521595
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -4.01,-11.99
+        - -4.01,-11.01
+        - -6.99,-11.01
+        - -6.99,-11.99
+      id: grid_chunk--6.99--11.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 11.681593
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 3.99,-15.99
+        - 3.99,-14.01
+        - 0.01,-14.01
+        - 0.01,-15.99
+      id: grid_chunk-0.01--15.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 31.521593
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 10.99,-10.99
+        - 10.99,-8.01
+        - 0.01,-8.01
+        - 0.01,-10.99
+      id: grid_chunk-0.01--10.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 130.88158
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -8.01,-11.99
+        - -8.01,-11.01
+        - -8.99,-11.01
+        - -8.99,-11.99
+      id: grid_chunk--8.99--11.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 3.8415964
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,-7.99
+        - -0.01,-7.01
+        - -7.99,-7.01
+        - -7.99,-7.99
+      id: grid_chunk--7.99--7.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 31.281586
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,-6.99
+        - -0.01,-5.01
+        - -6.99,-5.01
+        - -6.99,-6.99
+      id: grid_chunk--6.99--6.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 55.281586
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,-15.99
+        - -0.01,-14.01
+        - -1.99,-14.01
+        - -1.99,-15.99
+      id: grid_chunk--1.99--15.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 15.681597
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,-0.99
+        - -0.01,-0.01
+        - -3.99,-0.01
+        - -3.99,-0.99
+      id: grid_chunk--3.99--0.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 15.601601
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 5.99,-0.99
+        - 5.99,-0.01
+        - 0.01,-0.01
+        - 0.01,-0.99
+      id: grid_chunk-0.01--0.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 23.4416
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 6.99,0.01
+        - 6.99,0.99
+        - 0.01,0.99
+        - 0.01,0.01
+      id: grid_chunk-0.01-0.01
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 27.361599
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 7.99,16.01
+        - 7.99,16.99
+        - 3.01,16.99
+        - 3.01,16.01
+      id: grid_chunk-3.01-16.01
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 19.521591
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 7.99,1.01
+        - 7.99,9.99
+        - 0.01,9.99
+        - 0.01,1.01
+      id: grid_chunk-0.01-1.01
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 286.64157
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 9.99,-7.99
+        - 9.99,-7.01
+        - 0.01,-7.01
+        - 0.01,-7.99
+      id: grid_chunk-0.01--7.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 39.12158
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 8.99,-6.99
+        - 8.99,-5.01
+        - 0.01,-5.01
+        - 0.01,-6.99
+      id: grid_chunk-0.01--6.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 71.12158
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 6.99,-2.99
+        - 6.99,-1.01
+        - 0.01,-1.01
+        - 0.01,-2.99
+      id: grid_chunk-0.01--2.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 55.2816
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 7.99,-4.99
+        - 7.99,-3.01
+        - 0.01,-3.01
+        - 0.01,-4.99
+      id: grid_chunk-0.01--4.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 63.201588
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,-4.99
+        - -0.01,-3.01
+        - -5.99,-3.01
+        - -5.99,-4.99
+      id: grid_chunk--5.99--4.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 47.36159
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,-2.99
+        - -0.01,-1.01
+        - -4.99,-1.01
+        - -4.99,-2.99
+      id: grid_chunk--4.99--2.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 39.441597
+      restitution: 0.1
+    type: Fixtures
+  - gravityShakeSound: !type:SoundPathSpecifier
+      path: /Audio/Effects/alert.ogg
+    type: Gravity
+  - chunkCollection: {}
+    type: DecalGrid
+- uid: 36
+  type: AirlockGlass
+  components:
+  - pos: 1.5,0.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 37
+  type: WallReinforced
+  components:
+  - pos: -6.5,-6.5
+    parent: 35
+    type: Transform
+- uid: 38
+  type: WallReinforced
+  components:
+  - pos: 8.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 39
+  type: PoweredSmallLight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 1.5,5.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 40
+  type: WallReinforced
+  components:
+  - pos: 4.5,-13.5
+    parent: 35
+    type: Transform
+- uid: 41
+  type: ReinforcedWindow
+  components:
+  - pos: 3.5,-6.5
+    parent: 35
+    type: Transform
+- uid: 42
+  type: WallReinforced
+  components:
+  - pos: 0.5,-18.5
+    parent: 35
+    type: Transform
+- uid: 43
+  type: WallReinforced
+  components:
+  - pos: -1.5,-1.5
+    parent: 35
+    type: Transform
+- uid: 44
+  type: WallReinforced
+  components:
+  - pos: -4.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 45
+  type: WallReinforced
+  components:
+  - pos: -2.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 46
+  type: WallReinforced
+  components:
+  - pos: 10.5,-10.5
+    parent: 35
+    type: Transform
+- uid: 47
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-1.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 48
+  type: CableApcExtension
+  components:
+  - pos: 3.5,-4.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 49
+  type: WallReinforced
+  components:
+  - pos: 5.5,0.5
+    parent: 35
+    type: Transform
+- uid: 50
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-1.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 51
+  type: ReinforcedWindow
+  components:
+  - pos: 3.5,-5.5
+    parent: 35
+    type: Transform
+- uid: 52
+  type: CableApcExtension
+  components:
+  - pos: 5.5,10.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 53
+  type: CableApcExtension
+  components:
+  - pos: -6.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 54
+  type: WallReinforced
+  components:
+  - pos: 7.5,2.5
+    parent: 35
+    type: Transform
+- uid: 55
+  type: WallReinforced
+  components:
+  - pos: 7.5,1.5
+    parent: 35
+    type: Transform
+- uid: 56
+  type: WallReinforced
+  components:
+  - pos: 3.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 57
+  type: ReinforcedWindow
+  components:
+  - pos: -1.5,-3.5
+    parent: 35
+    type: Transform
+- uid: 58
+  type: DebugGenerator
+  components:
+  - pos: -5.5,-7.5
+    parent: 35
+    type: Transform
+  - supplyRampPosition: 3000
+    type: PowerSupplier
+- uid: 59
+  type: WallReinforced
+  components:
+  - pos: -4.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 60
+  type: ChairPilotSeat
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 61
+  type: ChairPilotSeat
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-0.5
+    parent: 35
+    type: Transform
+- uid: 62
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-1.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 63
+  type: BedsheetMedical
+  components:
+  - pos: -2.5,-6.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 64
+  type: WallReinforced
+  components:
+  - pos: -4.5,-1.5
+    parent: 35
+    type: Transform
+- uid: 65
+  type: WallReinforced
+  components:
+  - pos: -2.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 66
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 4.5,4.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 67
+  type: Grille
+  components:
+  - pos: 3.5,-6.5
+    parent: 35
+    type: Transform
+- uid: 68
+  type: WallReinforced
+  components:
+  - pos: -1.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 69
+  type: WallReinforced
+  components:
+  - pos: -1.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 70
+  type: CableApcExtension
+  components:
+  - pos: 4.5,-4.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 71
+  type: CableApcExtension
+  components:
+  - pos: 4.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 72
+  type: ChairPilotSeat
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-16.5
+    parent: 35
+    type: Transform
+- uid: 73
+  type: ReinforcedWindow
+  components:
+  - pos: -1.5,1.5
+    parent: 35
+    type: Transform
+- uid: 74
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-11.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 75
+  type: TableGlass
+  components:
+  - pos: 5.5,-4.5
+    parent: 35
+    type: Transform
+- uid: 76
+  type: WallReinforced
+  components:
+  - pos: 7.5,-3.5
+    parent: 35
+    type: Transform
+- uid: 77
+  type: WallReinforced
+  components:
+  - pos: -1.5,-11.5
+    parent: 35
+    type: Transform
+- uid: 78
+  type: CableApcExtension
+  components:
+  - pos: -3.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 79
+  type: CableApcExtension
+  components:
+  - pos: 5.5,5.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 80
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-13.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 81
+  type: WallReinforced
+  components:
+  - pos: 1.5,-17.5
+    parent: 35
+    type: Transform
+- uid: 82
+  type: Grille
+  components:
+  - pos: -1.5,2.5
+    parent: 35
+    type: Transform
+- uid: 83
+  type: WallReinforced
+  components:
+  - pos: 3.5,-14.5
+    parent: 35
+    type: Transform
+- uid: 84
+  type: WallReinforced
+  components:
+  - pos: 8.5,-6.5
+    parent: 35
+    type: Transform
+- uid: 85
+  type: ChairPilotSeat
+  components:
+  - pos: 5.5,-2.5
+    parent: 35
+    type: Transform
+- uid: 86
+  type: ReinforcedWindow
+  components:
+  - pos: 7.5,3.5
+    parent: 35
+    type: Transform
+- uid: 87
+  type: Grille
+  components:
+  - pos: 7.5,3.5
+    parent: 35
+    type: Transform
+- uid: 88
+  type: Grille
+  components:
+  - pos: 7.5,12.5
+    parent: 35
+    type: Transform
+- uid: 89
+  type: Grille
+  components:
+  - pos: -0.5,7.5
+    parent: 35
+    type: Transform
+- uid: 90
+  type: Grille
+  components:
+  - pos: 1.5,9.5
+    parent: 35
+    type: Transform
+- uid: 91
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -0.5,-15.5
+    parent: 35
+    type: Transform
+- uid: 92
+  type: ChairPilotSeat
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-14.5
+    parent: 35
+    type: Transform
+- uid: 93
+  type: ChairPilotSeat
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-11.5
+    parent: 35
+    type: Transform
+- uid: 94
+  type: ChairPilotSeat
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 95
+  type: PoweredSmallLight
+  components:
+  - pos: 5.5,-2.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 96
+  type: ChairPilotSeat
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-10.5
+    parent: 35
+    type: Transform
+- uid: 97
+  type: ReinforcedWindow
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -0.5,-15.5
+    parent: 35
+    type: Transform
+- uid: 98
+  type: WindoorSecurityLocked
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 0.5,-16.5
+    parent: 35
+    type: Transform
+- uid: 99
+  type: WallReinforced
+  components:
+  - pos: 6.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 100
+  type: ReinforcedWindow
+  components:
+  - pos: -0.5,8.5
+    parent: 35
+    type: Transform
+- uid: 101
+  type: ReinforcedWindow
+  components:
+  - pos: 1.5,9.5
+    parent: 35
+    type: Transform
+- uid: 102
+  type: ReinforcedWindow
+  components:
+  - pos: 3.5,14.5
+    parent: 35
+    type: Transform
+- uid: 103
+  type: WallReinforced
+  components:
+  - pos: -1.5,-12.5
+    parent: 35
+    type: Transform
+- uid: 104
+  type: WallReinforced
+  components:
+  - pos: 5.5,-1.5
+    parent: 35
+    type: Transform
+- uid: 105
+  type: Grille
+  components:
+  - pos: 3.5,-3.5
+    parent: 35
+    type: Transform
+- uid: 106
+  type: Thruster
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 10.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 107
+  type: CableApcExtension
+  components:
+  - pos: 5.5,9.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 108
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-7.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 109
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-14.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 110
+  type: SalternApc
+  components:
+  - pos: 6.5,-8.5
+    parent: 35
+    type: Transform
+  - startingCharge: 12000
+    type: Battery
+  - loadingNetworkDemand: 4565
+    currentReceiving: 4564.9985
+    currentSupply: 4565
+    supplyRampPosition: 0.0014648438
+    type: PowerNetworkBattery
+- uid: 111
+  type: WallReinforced
+  components:
+  - pos: 8.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 112
+  type: AirlockCommandGlassLocked
+  components:
+  - pos: 3.5,-4.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 113
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-13.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 114
+  type: ReinforcedWindow
+  components:
+  - pos: -1.5,-5.5
+    parent: 35
+    type: Transform
+- uid: 115
+  type: WallReinforced
+  components:
+  - pos: 5.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 116
+  type: WallReinforced
+  components:
+  - pos: -0.5,-17.5
+    parent: 35
+    type: Transform
+- uid: 117
+  type: CableApcExtension
+  components:
+  - pos: 5.5,12.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 118
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-16.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 119
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-7.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 120
+  type: CableHV
+  components:
+  - pos: -5.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 121
+  type: WallReinforced
+  components:
+  - pos: 3.5,8.5
+    parent: 35
+    type: Transform
+- uid: 122
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-5.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 123
+  type: CableHV
+  components:
+  - pos: -5.5,-7.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 124
+  type: WallReinforced
+  components:
+  - pos: 3.5,7.5
+    parent: 35
+    type: Transform
+- uid: 125
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-6.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 126
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-16.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 127
+  type: WallReinforced
+  components:
+  - pos: -8.5,-11.5
+    parent: 35
+    type: Transform
+- uid: 128
+  type: WallReinforced
+  components:
+  - pos: 2.5,4.5
+    parent: 35
+    type: Transform
+- uid: 129
+  type: WallReinforced
+  components:
+  - pos: -6.5,-5.5
+    parent: 35
+    type: Transform
+- uid: 130
+  type: WallReinforced
+  components:
+  - pos: -4.5,-2.5
+    parent: 35
+    type: Transform
+- uid: 131
+  type: WallReinforced
+  components:
+  - pos: -2.5,0.5
+    parent: 35
+    type: Transform
+- uid: 132
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-16.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 133
+  type: Gyroscope
+  components:
+  - pos: 2.5,5.5
+    parent: 35
+    type: Transform
+- uid: 134
+  type: AirlockShuttle
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 4.5,16.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 135
+  type: AirlockGlass
+  components:
+  - pos: 0.5,0.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 136
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 4.5,10.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 137
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 6.5,12.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 138
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 6.5,10.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 139
+  type: ChairPilotSeat
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -2.5,-3.5
+    parent: 35
+    type: Transform
+- uid: 140
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-2.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 141
+  type: WallReinforced
+  components:
+  - pos: 4.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 142
+  type: WallReinforced
+  components:
+  - pos: 6.5,-5.5
+    parent: 35
+    type: Transform
+- uid: 143
+  type: WallReinforced
+  components:
+  - pos: -2.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 144
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-12.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 145
+  type: WallReinforced
+  components:
+  - pos: 3.5,-1.5
+    parent: 35
+    type: Transform
+- uid: 146
+  type: WallReinforced
+  components:
+  - pos: -1.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 147
+  type: AirlockMedicalGlassLocked
+  components:
+  - pos: -1.5,-4.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 148
+  type: WallReinforced
+  components:
+  - pos: -3.5,-10.5
+    parent: 35
+    type: Transform
+- uid: 149
+  type: CableApcExtension
+  components:
+  - pos: -2.5,-4.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 150
+  type: WallReinforced
+  components:
+  - pos: -3.5,-1.5
+    parent: 35
+    type: Transform
+- uid: 151
+  type: CableApcExtension
+  components:
+  - pos: 5.5,15.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 152
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-8.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 153
+  type: CableApcExtension
+  components:
+  - pos: -5.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 154
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 1.5,-15.5
+    parent: 35
+    type: Transform
+- uid: 155
+  type: WallReinforced
+  components:
+  - pos: 3.5,6.5
+    parent: 35
+    type: Transform
+- uid: 156
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-7.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 157
+  type: CableMV
+  components:
+  - pos: 6.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 158
+  type: AirlockSecurityGlassLocked
+  components:
+  - pos: 1.5,-13.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 159
+  type: WallReinforced
+  components:
+  - pos: 1.5,-18.5
+    parent: 35
+    type: Transform
+- uid: 160
+  type: CableApcExtension
+  components:
+  - pos: 4.5,2.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 161
+  type: WallReinforced
+  components:
+  - pos: 1.5,4.5
+    parent: 35
+    type: Transform
+- uid: 162
+  type: WallReinforced
+  components:
+  - pos: -5.5,-5.5
+    parent: 35
+    type: Transform
+- uid: 163
+  type: WallReinforced
+  components:
+  - pos: -4.5,-3.5
+    parent: 35
+    type: Transform
+- uid: 164
+  type: WallReinforced
+  components:
+  - pos: -2.5,-13.5
+    parent: 35
+    type: Transform
+- uid: 165
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-15.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 166
+  type: ComputerCrewMonitoring
+  components:
+  - pos: 2.5,8.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 167
+  type: Gyroscope
+  components:
+  - pos: -0.5,5.5
+    parent: 35
+    type: Transform
+- uid: 168
+  type: AirlockExternal
+  components:
+  - pos: 3.5,3.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 169
+  type: AirlockCommandLocked
+  components:
+  - pos: 0.5,4.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 170
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 4.5,12.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 171
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 6.5,8.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 172
+  type: Table
+  components:
+  - pos: -2.5,-2.5
+    parent: 35
+    type: Transform
+- uid: 173
+  type: WallReinforced
+  components:
+  - pos: -3.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 174
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-8.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 175
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-3.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 176
+  type: WallReinforced
+  components:
+  - pos: 3.5,-11.5
+    parent: 35
+    type: Transform
+- uid: 177
+  type: WallReinforced
+  components:
+  - pos: 6.5,-3.5
+    parent: 35
+    type: Transform
+- uid: 178
+  type: CableApcExtension
+  components:
+  - pos: -1.5,-4.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 179
+  type: WallReinforced
+  components:
+  - pos: -3.5,-0.5
+    parent: 35
+    type: Transform
+- uid: 180
+  type: CableApcExtension
+  components:
+  - pos: 5.5,14.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 181
+  type: ReinforcedWindow
+  components:
+  - pos: 3.5,-3.5
+    parent: 35
+    type: Transform
+- uid: 182
+  type: CableApcExtension
+  components:
+  - pos: -4.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 183
+  type: Bed
+  components:
+  - pos: -2.5,-5.5
+    parent: 35
+    type: Transform
+- uid: 184
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-11.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 185
+  type: ChairPilotSeat
+  components:
+  - pos: 4.5,-2.5
+    parent: 35
+    type: Transform
+- uid: 186
+  type: WallReinforced
+  components:
+  - pos: -1.5,-10.5
+    parent: 35
+    type: Transform
+- uid: 187
+  type: Bed
+  components:
+  - pos: -2.5,-6.5
+    parent: 35
+    type: Transform
+- uid: 188
+  type: AirlockSecurityGlassLocked
+  components:
+  - pos: 0.5,-13.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 189
+  type: WallReinforced
+  components:
+  - pos: 3.5,5.5
+    parent: 35
+    type: Transform
+- uid: 190
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-9.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 191
+  type: CableMV
+  components:
+  - pos: 7.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 192
+  type: WallReinforced
+  components:
+  - pos: 6.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 193
+  type: WallReinforced
+  components:
+  - pos: 2.5,-18.5
+    parent: 35
+    type: Transform
+- uid: 194
+  type: WallReinforced
+  components:
+  - pos: 3.5,16.5
+    parent: 35
+    type: Transform
+- uid: 195
+  type: WallReinforced
+  components:
+  - pos: -0.5,4.5
+    parent: 35
+    type: Transform
+- uid: 196
+  type: WallReinforced
+  components:
+  - pos: -5.5,-4.5
+    parent: 35
+    type: Transform
+- uid: 197
+  type: WallReinforced
+  components:
+  - pos: -4.5,-4.5
+    parent: 35
+    type: Transform
+- uid: 198
+  type: WallReinforced
+  components:
+  - pos: -2.5,-12.5
+    parent: 35
+    type: Transform
+- uid: 199
+  type: ComputerShuttle
+  components:
+  - pos: 0.5,7.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 200
+  type: AirlockShuttle
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 6.5,16.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 201
+  type: AirlockExternal
+  components:
+  - pos: 3.5,2.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 202
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 4.5,6.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 203
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 4.5,14.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 204
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 6.5,6.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 205
+  type: WallReinforced
+  components:
+  - pos: -2.5,-1.5
+    parent: 35
+    type: Transform
+- uid: 206
+  type: WallReinforced
+  components:
+  - pos: -3.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 207
+  type: LockerMedicineFilled
+  components:
+  - pos: -3.5,-2.5
+    parent: 35
+    type: Transform
+  - isPlaceable: False
+    type: PlaceableSurface
+  - containers:
+      EntityStorageComponent: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 208
+  type: WallReinforced
+  components:
+  - pos: 6.5,-1.5
+    parent: 35
+    type: Transform
+- uid: 209
+  type: CableApcExtension
+  components:
+  - pos: 5.5,13.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 210
+  type: CableApcExtension
+  components:
+  - pos: -2.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 211
+  type: CableApcExtension
+  components:
+  - pos: -8.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 212
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-4.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 213
+  type: WallReinforced
+  components:
+  - pos: -1.5,-0.5
+    parent: 35
+    type: Transform
+- uid: 214
+  type: WallReinforced
+  components:
+  - pos: 4.5,-0.5
+    parent: 35
+    type: Transform
+- uid: 215
+  type: WallReinforced
+  components:
+  - pos: 3.5,4.5
+    parent: 35
+    type: Transform
+- uid: 216
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-10.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 217
+  type: CableMV
+  components:
+  - pos: -4.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 218
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-12.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 219
+  type: WallReinforced
+  components:
+  - pos: -1.5,4.5
+    parent: 35
+    type: Transform
+- uid: 220
+  type: WallReinforced
+  components:
+  - pos: -5.5,-3.5
+    parent: 35
+    type: Transform
+- uid: 221
+  type: WallReinforced
+  components:
+  - pos: -4.5,-5.5
+    parent: 35
+    type: Transform
+- uid: 222
+  type: WallReinforced
+  components:
+  - pos: -2.5,-11.5
+    parent: 35
+    type: Transform
+- uid: 223
+  type: ChairPilotSeat
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 0.5,6.5
+    parent: 35
+    type: Transform
+- uid: 224
+  type: AirlockShuttle
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 5.5,16.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 225
+  type: AirlockExternal
+  components:
+  - pos: 3.5,1.5
+    parent: 35
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 226
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 6.5,14.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 227
+  type: CableApcExtension
+  components:
+  - pos: -3.5,-4.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 228
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 4.5,8.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 229
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-15.5
+    parent: 35
+    type: Transform
+- uid: 230
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-10.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 231
+  type: WallReinforced
+  components:
+  - pos: -1.5,0.5
+    parent: 35
+    type: Transform
+- uid: 232
+  type: WallReinforced
+  components:
+  - pos: 6.5,-2.5
+    parent: 35
+    type: Transform
+- uid: 233
+  type: WindowReinforcedDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 0.5,-15.5
+    parent: 35
+    type: Transform
+- uid: 234
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-9.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 235
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 6.5,4.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 236
+  type: WallReinforced
+  components:
+  - pos: -2.5,-0.5
+    parent: 35
+    type: Transform
+- uid: 237
+  type: CableApcExtension
+  components:
+  - pos: 2.5,-5.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 238
+  type: WallReinforced
+  components:
+  - pos: -0.5,0.5
+    parent: 35
+    type: Transform
+- uid: 239
+  type: WallReinforced
+  components:
+  - pos: -3.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 240
+  type: BedsheetMedical
+  components:
+  - pos: -2.5,-5.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 241
+  type: WallReinforced
+  components:
+  - pos: 8.5,-5.5
+    parent: 35
+    type: Transform
+- uid: 242
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,2.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 243
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,2.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 244
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-9.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 245
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-7.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 246
+  type: CableApcExtension
+  components:
+  - pos: 5.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 247
+  type: WallReinforced
+  components:
+  - pos: 3.5,0.5
+    parent: 35
+    type: Transform
+- uid: 248
+  type: WallReinforced
+  components:
+  - pos: 4.5,-11.5
+    parent: 35
+    type: Transform
+- uid: 249
+  type: ReinforcedWindow
+  components:
+  - pos: -1.5,5.5
+    parent: 35
+    type: Transform
+- uid: 250
+  type: ReinforcedWindow
+  components:
+  - pos: -1.5,6.5
+    parent: 35
+    type: Transform
+- uid: 251
+  type: WindoorSecurityLocked
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 0.5,-14.5
+    parent: 35
+    type: Transform
+- uid: 252
+  type: ReinforcedWindow
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -0.5,-13.5
+    parent: 35
+    type: Transform
+- uid: 253
+  type: ChairPilotSeat
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-11.5
+    parent: 35
+    type: Transform
+- uid: 254
+  type: Grille
+  components:
+  - pos: -1.5,-2.5
+    parent: 35
+    type: Transform
+- uid: 255
+  type: Grille
+  components:
+  - pos: -1.5,-3.5
+    parent: 35
+    type: Transform
+- uid: 256
+  type: ChairPilotSeat
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 257
+  type: ChairPilotSeat
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-12.5
+    parent: 35
+    type: Transform
+- uid: 258
+  type: PoweredSmallLight
+  components:
+  - pos: -3.5,-2.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 259
+  type: Grille
+  components:
+  - pos: -1.5,-5.5
+    parent: 35
+    type: Transform
+- uid: 260
+  type: ChairPilotSeat
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-16.5
+    parent: 35
+    type: Transform
+- uid: 261
+  type: Grille
+  components:
+  - pos: 2.5,9.5
+    parent: 35
+    type: Transform
+- uid: 262
+  type: Grille
+  components:
+  - pos: -0.5,8.5
+    parent: 35
+    type: Transform
+- uid: 263
+  type: Grille
+  components:
+  - pos: -1.5,5.5
+    parent: 35
+    type: Transform
+- uid: 264
+  type: Grille
+  components:
+  - pos: 3.5,14.5
+    parent: 35
+    type: Transform
+- uid: 265
+  type: WallReinforced
+  components:
+  - pos: -1.5,-15.5
+    parent: 35
+    type: Transform
+- uid: 266
+  type: WallReinforced
+  components:
+  - pos: -1.5,-13.5
+    parent: 35
+    type: Transform
+- uid: 267
+  type: SalternApc
+  components:
+  - pos: -4.5,-8.5
+    parent: 35
+    type: Transform
+  - startingCharge: 12000
+    type: Battery
+  - loadingNetworkDemand: 7725
+    currentReceiving: 7724.972
+    currentSupply: 7725
+    supplyRampPosition: 0.027832031
+    type: PowerNetworkBattery
+- uid: 268
+  type: CableApcExtension
+  components:
+  - pos: -1.5,-8.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 269
+  type: CableApcExtension
+  components:
+  - pos: 3.5,-8.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 270
+  type: Grille
+  components:
+  - pos: -1.5,3.5
+    parent: 35
+    type: Transform
+- uid: 271
+  type: WallReinforced
+  components:
+  - pos: 9.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 272
+  type: WallReinforced
+  components:
+  - pos: 4.5,-12.5
+    parent: 35
+    type: Transform
+- uid: 273
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-9.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 274
+  type: CableApcExtension
+  components:
+  - pos: 5.5,8.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 275
+  type: Thruster
+  components:
+  - pos: 9.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 276
+  type: WallReinforced
+  components:
+  - pos: 5.5,-10.5
+    parent: 35
+    type: Transform
+- uid: 277
+  type: Grille
+  components:
+  - pos: 3.5,-5.5
+    parent: 35
+    type: Transform
+- uid: 278
+  type: WallReinforced
+  components:
+  - pos: -1.5,-14.5
+    parent: 35
+    type: Transform
+- uid: 279
+  type: ReinforcedWindow
+  components:
+  - pos: 7.5,14.5
+    parent: 35
+    type: Transform
+- uid: 280
+  type: ReinforcedWindow
+  components:
+  - pos: 2.5,9.5
+    parent: 35
+    type: Transform
+- uid: 281
+  type: ReinforcedWindow
+  components:
+  - pos: 0.5,8.5
+    parent: 35
+    type: Transform
+- uid: 282
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-11.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 283
+  type: CableApcExtension
+  components:
+  - pos: 5.5,7.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 284
+  type: WallReinforced
+  components:
+  - pos: -7.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 285
+  type: WallReinforced
+  components:
+  - pos: 3.5,-12.5
+    parent: 35
+    type: Transform
+- uid: 286
+  type: ReinforcedWindow
+  components:
+  - pos: -1.5,-6.5
+    parent: 35
+    type: Transform
+- uid: 287
+  type: ReinforcedWindow
+  components:
+  - pos: 7.5,5.5
+    parent: 35
+    type: Transform
+- uid: 288
+  type: ReinforcedWindow
+  components:
+  - pos: 7.5,13.5
+    parent: 35
+    type: Transform
+- uid: 289
+  type: ReinforcedWindow
+  components:
+  - pos: 3.5,12.5
+    parent: 35
+    type: Transform
+- uid: 290
+  type: WallReinforced
+  components:
+  - pos: -6.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 291
+  type: ReinforcedWindow
+  components:
+  - pos: -1.5,7.5
+    parent: 35
+    type: Transform
+- uid: 292
+  type: WindoorSecurityLocked
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 1.5,-14.5
+    parent: 35
+    type: Transform
+- uid: 293
+  type: ReinforcedWindow
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-13.5
+    parent: 35
+    type: Transform
+- uid: 294
+  type: ChairPilotSeat
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-12.5
+    parent: 35
+    type: Transform
+- uid: 295
+  type: ChairPilotSeat
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-1.5
+    parent: 35
+    type: Transform
+- uid: 296
+  type: ChairPilotSeat
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 2.5,7.5
+    parent: 35
+    type: Transform
+- uid: 297
+  type: ChairPilotSeat
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 298
+  type: ChairPilotSeat
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 299
+  type: Grille
+  components:
+  - pos: -1.5,-6.5
+    parent: 35
+    type: Transform
+- uid: 300
+  type: CableApcExtension
+  components:
+  - pos: 5.5,-4.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 301
+  type: ChairPilotSeat
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-14.5
+    parent: 35
+    type: Transform
+- uid: 302
+  type: Grille
+  components:
+  - pos: 7.5,14.5
+    parent: 35
+    type: Transform
+- uid: 303
+  type: Grille
+  components:
+  - pos: 0.5,8.5
+    parent: 35
+    type: Transform
+- uid: 304
+  type: Grille
+  components:
+  - pos: -1.5,6.5
+    parent: 35
+    type: Transform
+- uid: 305
+  type: Grille
+  components:
+  - pos: 3.5,13.5
+    parent: 35
+    type: Transform
+- uid: 306
+  type: Grille
+  components:
+  - pos: 7.5,5.5
+    parent: 35
+    type: Transform
+- uid: 307
+  type: Thruster
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 308
+  type: WallReinforced
+  components:
+  - pos: 6.5,-6.5
+    parent: 35
+    type: Transform
+- uid: 309
+  type: WallReinforced
+  components:
+  - pos: 3.5,-10.5
+    parent: 35
+    type: Transform
+- uid: 310
+  type: CableApcExtension
+  components:
+  - pos: 5.5,4.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 311
+  type: WallReinforced
+  components:
+  - pos: 4.5,-1.5
+    parent: 35
+    type: Transform
+- uid: 312
+  type: PoweredSmallLight
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-16.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 313
+  type: CableApcExtension
+  components:
+  - pos: 5.5,6.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 314
+  type: WallReinforced
+  components:
+  - pos: 9.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 315
+  type: WallReinforced
+  components:
+  - pos: 3.5,-13.5
+    parent: 35
+    type: Transform
+- uid: 316
+  type: WallReinforced
+  components:
+  - pos: 5.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 317
+  type: ReinforcedWindow
+  components:
+  - pos: 7.5,4.5
+    parent: 35
+    type: Transform
+- uid: 318
+  type: ReinforcedWindow
+  components:
+  - pos: 7.5,12.5
+    parent: 35
+    type: Transform
+- uid: 319
+  type: ReinforcedWindow
+  components:
+  - pos: 3.5,13.5
+    parent: 35
+    type: Transform
+- uid: 320
+  type: ReinforcedWindow
+  components:
+  - pos: 0.5,9.5
+    parent: 35
+    type: Transform
+- uid: 321
+  type: ReinforcedWindow
+  components:
+  - pos: -0.5,7.5
+    parent: 35
+    type: Transform
+- uid: 322
+  type: WindoorSecurityLocked
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 1.5,-16.5
+    parent: 35
+    type: Transform
+- uid: 323
+  type: ReinforcedWindow
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-15.5
+    parent: 35
+    type: Transform
+- uid: 324
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -0.5,-13.5
+    parent: 35
+    type: Transform
+- uid: 325
+  type: ChairPilotSeat
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-0.5
+    parent: 35
+    type: Transform
+- uid: 326
+  type: PoweredSmallLight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 5.5,-6.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 327
+  type: ChairPilotSeat
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 328
+  type: ChairPilotSeat
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-10.5
+    parent: 35
+    type: Transform
+- uid: 329
+  type: PoweredSmallLight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -3.5,-6.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 330
+  type: ChairPilotSeat
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 2.5,-1.5
+    parent: 35
+    type: Transform
+- uid: 331
+  type: Grille
+  components:
+  - pos: 7.5,13.5
+    parent: 35
+    type: Transform
+- uid: 332
+  type: Grille
+  components:
+  - pos: 0.5,9.5
+    parent: 35
+    type: Transform
+- uid: 333
+  type: Grille
+  components:
+  - pos: -1.5,7.5
+    parent: 35
+    type: Transform
+- uid: 334
+  type: Grille
+  components:
+  - pos: 3.5,12.5
+    parent: 35
+    type: Transform
+- uid: 335
+  type: Grille
+  components:
+  - pos: 7.5,4.5
+    parent: 35
+    type: Transform
+- uid: 336
+  type: Thruster
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -5.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 337
+  type: ChairPilotSeat
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 5.5,-6.5
+    parent: 35
+    type: Transform
+- uid: 338
+  type: ReinforcedWindow
+  components:
+  - pos: -1.5,-2.5
+    parent: 35
+    type: Transform
+- uid: 339
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-14.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 340
+  type: WallReinforced
+  components:
+  - pos: 6.5,-4.5
+    parent: 35
+    type: Transform
+- uid: 341
+  type: WallReinforced
+  components:
+  - pos: 3.5,-15.5
+    parent: 35
+    type: Transform
+- uid: 342
+  type: WallReinforced
+  components:
+  - pos: 7.5,-5.5
+    parent: 35
+    type: Transform
+- uid: 343
+  type: WallReinforced
+  components:
+  - pos: -1.5,-16.5
+    parent: 35
+    type: Transform
+- uid: 344
+  type: ReinforcedWindow
+  components:
+  - pos: -1.5,3.5
+    parent: 35
+    type: Transform
+- uid: 345
+  type: CableApcExtension
+  components:
+  - pos: 5.5,3.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 346
+  type: WallReinforced
+  components:
+  - pos: -7.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 347
+  type: WallReinforced
+  components:
+  - pos: 3.5,-16.5
+    parent: 35
+    type: Transform
+- uid: 348
+  type: WallReinforced
+  components:
+  - pos: 7.5,-4.5
+    parent: 35
+    type: Transform
+- uid: 349
+  type: WallReinforced
+  components:
+  - pos: 4.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 350
+  type: WallReinforced
+  components:
+  - pos: 3.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 351
+  type: Thruster
+  components:
+  - pos: -7.5,-7.5
+    parent: 35
+    type: Transform
+- uid: 352
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-1.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 353
+  type: CableApcExtension
+  components:
+  - pos: -0.5,3.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 354
+  type: CableApcExtension
+  components:
+  - pos: 0.5,5.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 355
+  type: CableApcExtension
+  components:
+  - pos: 1.5,7.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 356
+  type: CableApcExtension
+  components:
+  - pos: 3.5,2.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 357
+  type: WallReinforced
+  components:
+  - pos: 3.5,15.5
+    parent: 35
+    type: Transform
+- uid: 358
+  type: WallReinforced
+  components:
+  - pos: -8.5,-10.5
+    parent: 35
+    type: Transform
+- uid: 359
+  type: WallReinforced
+  components:
+  - pos: 3.5,15.5
+    parent: 35
+    type: Transform
+- uid: 360
+  type: CableApcExtension
+  components:
+  - pos: 2.5,2.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 361
+  type: Thruster
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -8.5,-9.5
+    parent: 35
+    type: Transform
+- uid: 362
+  type: CableApcExtension
+  components:
+  - pos: 1.5,6.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 363
+  type: CableApcExtension
+  components:
+  - pos: 0.5,4.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 364
+  type: CableApcExtension
+  components:
+  - pos: -0.5,2.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 365
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-2.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 366
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-3.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 367
+  type: CableApcExtension
+  components:
+  - pos: -0.5,1.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 368
+  type: CableApcExtension
+  components:
+  - pos: 0.5,3.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 369
+  type: CableApcExtension
+  components:
+  - pos: 0.5,6.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 370
+  type: CableApcExtension
+  components:
+  - pos: 2.5,1.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 371
+  type: WallReinforced
+  components:
+  - pos: 7.5,16.5
+    parent: 35
+    type: Transform
+- uid: 372
+  type: WallReinforced
+  components:
+  - pos: 10.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 373
+  type: CableApcExtension
+  components:
+  - pos: 6.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 374
+  type: CableApcExtension
+  components:
+  - pos: 8.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 375
+  type: WallReinforced
+  components:
+  - pos: 10.5,-11.5
+    parent: 35
+    type: Transform
+- uid: 376
+  type: WallReinforced
+  components:
+  - pos: 7.5,11.5
+    parent: 35
+    type: Transform
+- uid: 377
+  type: WallReinforced
+  components:
+  - pos: 7.5,8.5
+    parent: 35
+    type: Transform
+- uid: 378
+  type: WallReinforced
+  components:
+  - pos: 3.5,11.5
+    parent: 35
+    type: Transform
+- uid: 379
+  type: CableApcExtension
+  components:
+  - pos: 2.5,0.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 380
+  type: WallReinforced
+  components:
+  - pos: 7.5,15.5
+    parent: 35
+    type: Transform
+- uid: 381
+  type: WallReinforced
+  components:
+  - pos: -8.5,-8.5
+    parent: 35
+    type: Transform
+- uid: 382
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-4.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 383
+  type: CableApcExtension
+  components:
+  - pos: -0.5,-0.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 384
+  type: CableApcExtension
+  components:
+  - pos: -0.5,0.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 385
+  type: WallReinforced
+  components:
+  - pos: 7.5,10.5
+    parent: 35
+    type: Transform
+- uid: 386
+  type: WallReinforced
+  components:
+  - pos: 7.5,7.5
+    parent: 35
+    type: Transform
+- uid: 387
+  type: WallReinforced
+  components:
+  - pos: 3.5,10.5
+    parent: 35
+    type: Transform
+- uid: 388
+  type: CableHV
+  components:
+  - pos: 7.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 389
+  type: CableApcExtension
+  components:
+  - pos: 7.5,-7.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 390
+  type: WallReinforced
+  components:
+  - pos: 9.5,-10.5
+    parent: 35
+    type: Transform
+- uid: 391
+  type: WallReinforced
+  components:
+  - pos: 7.5,9.5
+    parent: 35
+    type: Transform
+- uid: 392
+  type: WallReinforced
+  components:
+  - pos: 7.5,6.5
+    parent: 35
+    type: Transform
+- uid: 393
+  type: WallReinforced
+  components:
+  - pos: 3.5,9.5
+    parent: 35
+    type: Transform
+- uid: 394
+  type: CableHV
+  components:
+  - pos: 7.5,-7.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 395
+  type: CableApcExtension
+  components:
+  - pos: 7.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 396
+  type: WallReinforced
+  components:
+  - pos: 7.5,-6.5
+    parent: 35
+    type: Transform
+- uid: 397
+  type: PoweredSmallLight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-11.5
+    parent: 35
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
+  - enabled: False
+    type: AmbientSound
+  - containers:
+      light_bulb: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 398
+  type: CableApcExtension
+  components:
+  - pos: 5.5,2.5
+    parent: 35
+    type: Transform
+  - visible: False
+    type: Sprite
+  - canCollide: False
+    type: Physics
+- uid: 399
+  type: WallReinforced
+  components:
+  - pos: -7.5,-10.5
+    parent: 35
+    type: Transform
+- uid: 400
+  type: WallReinforced
+  components:
+  - pos: 3.5,-17.5
+    parent: 35
+    type: Transform
+- uid: 401
+  type: WallReinforced
+  components:
+  - pos: 4.5,0.5
+    parent: 35
+    type: Transform
+- uid: 402
+  type: WallReinforced
+  components:
+  - pos: 4.5,-10.5
+    parent: 35
+    type: Transform
+- uid: 403
+  type: Grille
+  components:
+  - pos: -1.5,1.5
+    parent: 35
+    type: Transform
+- uid: 404
+  type: WallReinforced
+  components:
+  - pos: -5.5,-6.5
+    parent: 35
+    type: Transform
+- uid: 405
+  type: WallReinforced
+  components:
+  - pos: 2.5,-17.5
+    parent: 35
+    type: Transform
+- uid: 406
+  type: WallReinforced
+  components:
+  - pos: -1.5,-17.5
+    parent: 35
+    type: Transform
+- uid: 407
+  type: ReinforcedWindow
+  components:
+  - pos: -1.5,2.5
+    parent: 35
+    type: Transform
+- uid: 408
+  type: CableMV
+  components:
+  - pos: -5.5,-8.5
+    parent: 35
+    type: Transform
+  - canCollide: False
+    type: Physics
+...
