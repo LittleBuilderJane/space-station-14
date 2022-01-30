@@ -1,34 +1,4 @@
 Entries:
-- author: mirrorcult
-  changes:
-  - {message: Security gear will now actually protect you against attacks., type: Add}
-  - {message: Mesons and hardsuits now actually protect against radiation., type: Add}
-  id: 456
-  time: '2021-10-18T23:24:37.0000000+00:00'
-- author: 20kdc
-  changes:
-  - {message: Monkey cubes and rehydratable space carp work properly and don't rely
-      on the RefillableSolution workaround., type: Fix}
-  - {message: Poisoning something that can be sliced now poisons the slices., type: Tweak}
-  id: 457
-  time: '2021-10-19T07:13:44.0000000+00:00'
-- author: 20kdc
-  changes:
-  - {message: freezers are rotatable now., type: Fix}
-  id: 458
-  time: '2021-10-19T07:22:41.0000000+00:00'
-- author: 20kdc
-  changes:
-  - {message: Singularity field generators should be easier to move around., type: Tweak}
-  id: 459
-  time: '2021-10-19T07:24:07.0000000+00:00'
-- author: Efruit
-  changes:
-  - {message: Show set pressure when examining gas pumps., type: Add}
-  - {message: Show set rate when examining volumetric gas pumps., type: Add}
-  - {message: Show valve status (open/closed) when examining manual valves., type: Add}
-  id: 460
-  time: '2021-10-19T21:46:31.0000000+00:00'
 - author: Efruit
   changes:
   - {message: NT took the tele-trashbags back. At least they left some normal ones
@@ -2938,3 +2908,32 @@ Entries:
   - {message: Fire extinguishers can be refilled from any source now., type: Tweak}
   id: 956
   time: '2022-01-30T14:42:15.0000000+00:00'
+- author: Schiene
+  changes:
+  - {message: 'Added a new non-votable map, Moonrise-class Emergency Response Cruiser.',
+    type: Add}
+  id: 957
+  time: '2022-01-30T15:11:40.0000000+00:00'
+- author: Rane
+  changes:
+  - {message: 'Chaplains'' prayers have been answered, and they now spawn with a fully
+      functional bible.', type: Add}
+  id: 958
+  time: '2022-01-30T15:20:23.0000000+00:00'
+- author: ElectroJr
+  changes:
+  - {message: Fixed ghost being able to interact with the world via various UI elements.,
+    type: Fix}
+  id: 959
+  time: '2022-01-30T15:26:08.0000000+00:00'
+- author: Schiene
+  changes:
+  - {message: Remastered the Dart shuttle, type: Add}
+  id: 960
+  time: '2022-01-30T16:01:49.0000000+00:00'
+- author: ElectroJr
+  changes:
+  - {message: Fixed a visual bug that would sometimes result in players getting stuck
+      lying on the floor after being stunned., type: Fix}
+  id: 961
+  time: '2022-01-30T16:34:48.0000000+00:00'
