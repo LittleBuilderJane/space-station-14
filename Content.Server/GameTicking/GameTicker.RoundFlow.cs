@@ -1,5 +1,3 @@
-using System.Linq;
-using System.Threading.Tasks;
 using Content.Server.Announcements;
 using Content.Server.GameTicking.Events;
 using Content.Server.Ghost;
@@ -10,7 +8,6 @@ using Content.Shared.CCVar;
 using Content.Shared.Coordinates;
 using Content.Shared.GameTicking;
 using Content.Shared.Preferences;
-using Content.Shared.Sound;
 using JetBrains.Annotations;
 using Prometheus;
 using Robust.Server.Maps;
@@ -21,6 +18,8 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Content.Server.GameTicking
 {
@@ -213,7 +212,7 @@ namespace Content.Server.GameTicking
             _roundStartDateTime = DateTime.UtcNow;
             RunLevel = GameRunLevel.InRound;
 
-            _roundStartTimeSpan = _gameTiming.RealTime;
+            _roundStartTimeSpan = _gameTiming.CurTime;
             SendStatusToAll();
             ReqWindowAttentionAll();
             UpdateLateJoinStatus();
@@ -357,6 +356,8 @@ namespace Content.Server.GameTicking
 
             RoundNumberMetric.Inc();
 
+            PlayersJoinedRoundNormally = 0;
+
             RunLevel = GameRunLevel.PreRoundLobby;
             LobbySong = _robustRandom.Pick(_lobbyMusicCollection.PickFiles).ToString();
             RandomizeLobbyBackground();
@@ -474,7 +475,7 @@ namespace Content.Server.GameTicking
 
         public TimeSpan RoundDuration()
         {
-            return _gameTiming.RealTime.Subtract(_roundStartTimeSpan);
+            return _gameTiming.CurTime.Subtract(_roundStartTimeSpan);
         }
 
         private void AnnounceRound()
